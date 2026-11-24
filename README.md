@@ -8,7 +8,9 @@
 ![Engine](https://img.shields.io/badge/engine-simple--mind--map%200.14-8a5cf6.svg)
 ![Output](https://img.shields.io/badge/output-SVG%20%7C%20PDF%20%7C%20PNG-c8892b.svg)
 
-![六套主题总览](docs/images/themes.png)
+![mindmap-kit 输出示例：莫兰迪学术主题](docs/images/hero.png)
+
+<sub>↑ 真实产物：46 节点示例，`--theme morandi --decorate full`。左边是脑图本体，右边是分区索引栏，底部是数据卡与符号图例。**这是从 PDF 直接栅格化的，不是效果图。**</sub>
 
 ---
 
@@ -64,6 +66,10 @@ VERDICT: OK   OK 8 / WARN 0 / FAIL 0
 ---
 
 ## 六套主题
+
+![六套主题对比](docs/images/themes.png)
+
+<sub>↑ 同一份 Markdown（`examples/demo-reading.md`），只换 `--theme`。差异是全维度的：字体、形状、圆角、纹理、填充策略、明暗。</sub>
 
 | 主题 | 气质 | 底色 | 正文字色 | 节点形状 | 纹理 | 适合 |
 |---|---|---|---|---|---|---|
