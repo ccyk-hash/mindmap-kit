@@ -1,0 +1,274 @@
+{
+  "$schema": "./_schema.json",
+  "name": "ink",
+  "label": "水墨线稿",
+  "description": "宣纸底 + 宋体 + 墨分五色的极简线稿风；去掉所有填充，只留墨线与墨块印章。",
+  "paper": "#F7F5F0",
+  "ink": "#1E1E1C",
+  "inkSoft": "#55534E",
+  "sizes": {
+    "root": 42,
+    "second": 26,
+    "node": 19,
+    "leaf": 16,
+    "tag": 14
+  },
+  "pad": {
+    "rootX": 34,
+    "rootY": 16,
+    "secondX": 24,
+    "secondY": 13,
+    "nodeX": 18,
+    "nodeY": 10,
+    "leafX": 12,
+    "leafY": 6
+  },
+  "radius": {
+    "root": 0,
+    "second": 0,
+    "node": 0,
+    "leaf": 0
+  },
+  "shapes": {
+    "root": "rectangle",
+    "second": "rectangle",
+    "node": "rectangle"
+  },
+  "line": {
+    "color": "#6E6A62",
+    "width1": 2.2,
+    "width2": 1.4,
+    "width3": 1.0,
+    "style": "straight",
+    "radius": 0,
+    "nodeBorderW": 1
+  },
+  "branches": [
+    {
+      "name": "mo",
+      "main": "#1E1E1C",
+      "deep": "#171716",
+      "pale": "#E8E8E8",
+      "mist": "#F5F5F5",
+      "edge": "#C0C0BF",
+      "tint": "#E0E0DF"
+    },
+    {
+      "name": "dailan",
+      "main": "#2E4A5C",
+      "deep": "#243A48",
+      "pale": "#EAEDEF",
+      "mist": "#F6F7F8",
+      "edge": "#C4CCD1",
+      "tint": "#E2E6E8"
+    },
+    {
+      "name": "jiangzi",
+      "main": "#5B3A48",
+      "deep": "#472D38",
+      "pale": "#EFEBED",
+      "mist": "#F8F6F7",
+      "edge": "#D1C8CC",
+      "tint": "#E8E3E5"
+    },
+    {
+      "name": "canglv",
+      "main": "#3F5B4A",
+      "deep": "#31473A",
+      "pale": "#ECEFED",
+      "mist": "#F6F8F7",
+      "edge": "#C9D1CC",
+      "tint": "#E4E8E6"
+    },
+    {
+      "name": "zheshi",
+      "main": "#7A5233",
+      "deep": "#5F4028",
+      "pale": "#F2EEEB",
+      "mist": "#F9F7F6",
+      "edge": "#DACFC6",
+      "tint": "#ECE7E2"
+    },
+    {
+      "name": "qinghui",
+      "main": "#4A5560",
+      "deep": "#3A424B",
+      "pale": "#EDEEEF",
+      "mist": "#F7F7F8",
+      "edge": "#CCCFD2",
+      "tint": "#E6E7E9"
+    },
+    {
+      "name": "anzhu",
+      "main": "#8A3B33",
+      "deep": "#6C2E28",
+      "pale": "#F3EBEB",
+      "mist": "#FAF6F6",
+      "edge": "#DEC8C6",
+      "tint": "#EFE4E2"
+    },
+    {
+      "name": "songyan",
+      "main": "#2A2A33",
+      "deep": "#212128",
+      "pale": "#EAEAEB",
+      "mist": "#F5F5F6",
+      "edge": "#C3C3C6",
+      "tint": "#E1E1E2"
+    },
+    {
+      "name": "ouhe",
+      "main": "#6D5566",
+      "deep": "#554250",
+      "pale": "#F0EEF0",
+      "mist": "#F8F7F8",
+      "edge": "#D6CFD4",
+      "tint": "#EBE7EA"
+    },
+    {
+      "name": "taihen",
+      "main": "#566B4A",
+      "deep": "#43533A",
+      "pale": "#EEF0ED",
+      "mist": "#F7F8F7",
+      "edge": "#D0D6CC",
+      "tint": "#E7EAE6"
+    },
+    {
+      "name": "yuanshan",
+      "main": "#3E5C63",
+      "deep": "#30484D",
+      "pale": "#ECEFEF",
+      "mist": "#F6F8F8",
+      "edge": "#C9D1D3",
+      "tint": "#E4E8E9"
+    },
+    {
+      "name": "chahe",
+      "main": "#6B5340",
+      "deep": "#534132",
+      "pale": "#F0EEEC",
+      "mist": "#F8F7F6",
+      "edge": "#D6CFCA",
+      "tint": "#EAE7E4"
+    },
+    {
+      "name": "xuanqing",
+      "main": "#274052",
+      "deep": "#1E3240",
+      "pale": "#E9ECEE",
+      "mist": "#F5F6F7",
+      "edge": "#C3CACF",
+      "tint": "#E1E4E7"
+    },
+    {
+      "name": "danmo",
+      "main": "#3C3C3A",
+      "deep": "#2F2F2D",
+      "pale": "#ECECEB",
+      "mist": "#F6F6F6",
+      "edge": "#C8C8C8",
+      "tint": "#E4E4E3"
+    }
+  ],
+  "smm": {
+    "backgroundColor": "#F7F5F0",
+    "textAutoWrapWidth": 336,
+    "lineColor": "#6E6A62",
+    "lineWidth": 1.4,
+    "lineStyle": "straight",
+    "lineRadius": 0,
+    "rootLineKeepSameInCurve": true,
+    "paddingX": 18,
+    "paddingY": 8,
+    "root": {
+      "shape": "rectangle",
+      "fillColor": "#1E1E1C",
+      "color": "#F7F5F0",
+      "fontFamily": "\"SimSun\", 宋体, \"Noto Serif SC\", serif",
+      "fontSize": 42,
+      "fontWeight": "bold",
+      "borderRadius": 0,
+      "borderWidth": 0,
+      "paddingX": 34,
+      "paddingY": 16,
+      "textAlign": "center"
+    },
+    "second": {
+      "shape": "rectangle",
+      "fillColor": "#1E1E1C",
+      "color": "#F7F5F0",
+      "fontFamily": "\"SimSun\", 宋体, \"Noto Serif SC\", serif",
+      "fontSize": 26,
+      "fontWeight": "bold",
+      "borderRadius": 0,
+      "borderWidth": 0,
+      "paddingX": 24,
+      "paddingY": 13,
+      "textAlign": "center",
+      "marginX": 78,
+      "marginY": 34
+    },
+    "node": {
+      "shape": "rectangle",
+      "fillColor": "#F7F5F0",
+      "color": "#1E1E1C",
+      "fontFamily": "\"SimSun\", 宋体, \"Noto Serif SC\", serif",
+      "fontSize": 19,
+      "fontWeight": "normal",
+      "borderRadius": 0,
+      "borderColor": "#C9C2B4",
+      "borderWidth": 1,
+      "paddingX": 18,
+      "paddingY": 10,
+      "textAlign": "left",
+      "marginX": 50,
+      "marginY": 0
+    },
+    "lineDasharray": "none"
+  },
+  "fonts": {
+    "root": "\"SimSun\", 宋体, \"Noto Serif SC\", serif",
+    "second": "\"SimSun\", 宋体, \"Noto Serif SC\", serif",
+    "node": "\"SimSun\", 宋体, \"Noto Serif SC\", serif",
+    "leaf": "\"SimSun\", 宋体, \"Noto Serif SC\", serif"
+  },
+  "tint": "none",
+  "texture": {
+    "kind": "paper",
+    "color": "#8A8378",
+    "size": 34,
+    "opacity": 0.1,
+    "width": 0.6
+  },
+  "levels": {
+    "1": {
+      "fillColor": "{main}",
+      "color": "#FFFFFF",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "paddingX": 24,
+      "paddingY": 13,
+      "fontWeight": "bold"
+    },
+    "2": {
+      "fillColor": "transparent",
+      "color": "{deep}",
+      "borderColor": "{edge}",
+      "borderWidth": 1.0,
+      "borderRadius": 0,
+      "fontWeight": "bold"
+    },
+    "3": {
+      "fillColor": "transparent",
+      "color": "#55534E",
+      "borderWidth": 0,
+      "fontWeight": "normal"
+    },
+    "4": {
+      "fillColor": "transparent",
+      "color": "#6E6A62",
+      "borderWidth": 0
+    }
+  }
+}

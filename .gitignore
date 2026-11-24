@@ -1,0 +1,25 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build output
+out/
+!out/.gitkeep
+
+# Local scratch
+.work/
+*.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary render dirs
+*.tmp
+render_*/
+png_*/
+pdf_*/

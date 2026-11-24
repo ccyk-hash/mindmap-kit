@@ -1,0 +1,3 @@
+simple-mind-map 0.14.0-fix.3
+source: https://registry.npmjs.org/simple-mind-map/-/simple-mind-map-0.14.0-fix.3.tgz
+downloaded: 2026-11-23

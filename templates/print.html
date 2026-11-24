@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>__TITLE__</title>
+<style>
+  @page { size: __PW__pt __PH__pt; margin: 0; }
+  html, body {
+    margin: 0; padding: 0;
+    /* 用「缩放后的物理盒」而不是原始 px 尺寸：两者相等时 Chrome 只出一页；
+       若这里仍写原始 H，超限缩页时布局高度会溢出到第二页。 */
+    width: __CW__px; height: __CH__px;
+    overflow: hidden;
+    background: __PAPER__;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  #wrap {
+    transform: scale(__SCALE__);
+    transform-origin: 0 0;
+    width: __W__px; height: __H__px;
+  }
+  svg { display: block; }
+</style>
+</head>
+<body>
+<div id="wrap">__SVG__</div>
+</body>
+</html>

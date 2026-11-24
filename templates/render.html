@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>mindmap-kit render</title>
+<link rel="stylesheet" href="__CSS__">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  /* SMM 要求容器有非零宽高；给足画布，布局本身与容器无关 */
+  #stage { position: absolute; left: 0; top: 0; width: 2400px; height: 1600px; }
+  /* 导出阶段隐藏交互态元素 */
+  .smm-hover-node { display: none !important; }
+  .smm-expand-btn, .smm-quick-create-child-btn { display: none !important; }
+  /* 关键：vendor CSS 没有给富文本节点里的 <p> 归零外边距。
+     浏览器默认 1em 上下 margin 会吃掉节点高度（16px 级节点可见高度只有 19px），
+     打印/栅格化后文字被 foreignObject 裁掉大半，看上去变成一条细线。
+     必须在建图之前生效，因为 SMM 是插入后测量尺寸的。 */
+  #stage .smm-richtext-node-wrap,
+  #stage .smm-richtext-node-wrap p,
+  #stage .smm-richtext-node-wrap div,
+  #stage .smm-richtext-node-wrap ul,
+  #stage .smm-richtext-node-wrap ol { margin: 0 !important; padding: 0 !important; }
+  #stage .smm-richtext-node-wrap { line-height: 1.2; }
+  /* 只给 max-width 而不给断词策略时，遇到「GlcNAc(β1→4)MurNAc；青霉素…」这类
+     以 ASCII 开头、紧跟全角标点的长 token，浏览器找不到合法断点就直接顶出节点边界
+     （实测溢出 68px，文字被画到圆角外面）。anywhere 保证任何位置都能断。 */
+  #stage .smm-richtext-node-wrap p {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  #stage .smm-richtext-node-wrap code {
+    font-family: Consolas, "Cascadia Mono", monospace;
+    background: rgba(0,0,0,.05); border-radius: 3px; padding: 0 3px;
+  }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="__JS__"></script>
+<script>
+window.__MMK__ = { stage: 'boot', error: null, svg: null, dims: null, nodeCount: 0 };
+
+function fail(msg, err) {
+  window.__MMK__.stage = 'error';
+  window.__MMK__.error = String(msg) + (err && err.stack ? '\n' + err.stack : '');
+  var d = document.createElement('div');
+  d.id = 'MMK_ERROR';
+  d.textContent = window.__MMK__.error;
+  document.body.appendChild(d);
+  document.title = 'MMK_FAIL';
+}
+
+(function () {
+  window.addEventListener('error', function (e) { fail(e.message, e.error); });
+
+  var CFG = __CONFIG__;
+  var TREE = __TREE__;
+
+  function getCtor() {
+    var g = window.simpleMindMap;
+    if (!g) return null;
+    return g.default || g;
+  }
+
+  function hexToRgb(hex) {
+    var h = String(hex).replace('#', '');
+    if (h.length === 3) h = h[0]+h[0]+h[1]+h[1]+h[2]+h[2];
+    return [parseInt(h.slice(0,2),16), parseInt(h.slice(2,4),16), parseInt(h.slice(4,6),16)];
+  }
+  function luminance(hex) {
+    var c = hexToRgb(hex).map(function (v) {
+      v = v / 255;
+      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    });
+    return 0.2126*c[0] + 0.7152*c[1] + 0.0722*c[2];
+  }
+  function contrast(a, b) {
+    var l1 = luminance(a), l2 = luminance(b);
+    var hi = Math.max(l1, l2), lo = Math.min(l1, l2);
+    return (hi + 0.05) / (lo + 0.05);
+  }
+  function readableOn(bg, light, dark) {
+    return contrast(bg, light) >= contrast(bg, dark) ? light : dark;
+  }
+
+  // ---- 按主题给一级分支分配主色（深度优先，循环取色环） ----
+  // 主题可选扩展（缺省时行为与阶段1完全一致）：
+  //   fonts: {root,second,node,leaf}  按层指定字体族
+  //   levels: {"1":{...},"2":{...},"3":{...},"4":{...}}  按层覆写任意节点样式
+  //   tint:   叶层填充模式  pale(默认) | tint(极淡同色) | none(透明)
+  function paint(tree, th) {
+    var ring = th.branches || [];
+    if (!ring.length) return;
+    var fonts = th.fonts || {};
+    var levels = th.levels || {};
+    var i = 0;
+    (tree.children || []).forEach(function (branch) {
+      var p = ring[i % ring.length];
+      i++;
+      assign(branch, p, 1);
+    });
+
+    // 允许令牌值里写 {main}/{deep}/{pale}/{mist}/{edge}/{tint} 占位，
+    // 逐分支替换成该分支的调色板颜色 —— 这样一套 levels 就能给 14 条分支
+    // 各自算出「同族但不同色」的描边/文字/连线色。
+    function tint(val, pal) {
+      if (typeof val !== 'string' || val.indexOf('{') < 0) return val;
+      return val.replace(/\{(main|deep|pale|mist|edge|tint)\}/g, function (_m, k) {
+        return pal[k] || pal.main || '#000000';
+      });
+    }
+
+    function mergeLevel(d, depth, pal) {
+      var ov = levels[String(depth)];
+      if (!ov) return;
+      for (var k in ov) {
+        if (!Object.prototype.hasOwnProperty.call(ov, k)) continue;
+        if (k === 'gradient' || k === 'startDir' || k === 'endDir') continue;
+        d[k] = tint(ov[k], pal);
+      }
+      // 渐变填充：默认 {main} → {deep}，可用 startColor/endColor 改
+      if (ov.gradient) {
+        d.gradientStyle = true;
+        d.startColor = tint(ov.startColor || '{main}', pal);
+        d.endColor = tint(ov.endColor || '{deep}', pal);
+        d.startDir = ov.startDir || [0, 0];
+        d.endDir = ov.endDir || [1, 1];
+      }
+    }
+
+    function assign(node, pal, depth) {
+      if (!node.data) node.data = {};
+      var d = node.data;
+      d.__branch = pal.name || '';
+      // 连线粗细 3-2-1 律：连线归属于「子节点」，所以按 child 的深度取档
+      //   depth 1（根→一级分支）= width1  、depth 2 = width2 、更深 = width3
+      var lw = th.line || {};
+      d.lineWidth = depth === 1 ? (lw.width1 || 3.0)
+                  : depth === 2 ? (lw.width2 || 2.0)
+                  : (lw.width3 || 1.3);
+      if (depth === 1) {
+        d.fillColor = pal.main;
+        d.color = readableOn(pal.main, '#FFFFFF', '#111111');
+        d.borderColor = pal.deep;
+        d.borderWidth = 0;
+        d.fontSize = th.sizes.second;
+        d.fontWeight = 'bold';
+        d.paddingX = th.pad.secondX;
+        d.paddingY = th.pad.secondY;
+        d.borderRadius = th.radius.second;
+        d.shape = th.shapes.second;
+        if (fonts.root) d.fontFamily = fonts.root;
+        if (fonts.second) d.fontFamily = fonts.second;
+      } else if (depth === 2) {
+        d.fillColor = pal.pale;
+        d.color = th.ink;
+        d.borderColor = pal.edge;
+        d.borderWidth = th.line.nodeBorderW;
+        d.fontSize = th.sizes.node;
+        d.fontWeight = 'bold';
+        d.paddingX = th.pad.nodeX;
+        d.paddingY = th.pad.nodeY;
+        d.borderRadius = th.radius.node;
+        d.shape = th.shapes.node;
+        if (fonts.node) d.fontFamily = fonts.node;
+      } else if (depth === 3) {
+        d.fillColor = (th.tint === 'tint') ? pal.tint || pal.pale : ((th.tint === 'none') ? 'transparent' : pal.mist);
+        d.color = th.inkSoft;
+        d.borderColor = 'transparent';
+        d.borderWidth = 0;
+        d.fontSize = th.sizes.leaf;
+        d.paddingX = th.pad.leafX;
+        d.paddingY = th.pad.leafY;
+        d.borderRadius = th.radius.leaf;
+        d.shape = th.shapes.node;
+        if (fonts.leaf) d.fontFamily = fonts.leaf;
+      } else {
+        d.fillColor = 'transparent';
+        d.color = th.inkSoft;
+        d.borderColor = 'transparent';
+        d.borderWidth = 0;
+        d.fontSize = th.sizes.tag;
+        d.paddingX = th.pad.leafX;
+        d.paddingY = th.pad.leafY;
+        d.shape = th.shapes.node;
+        if (fonts.leaf) d.fontFamily = fonts.leaf;
+      }
+      mergeLevel(d, depth, pal);
+      (node.children || []).forEach(function (c) { assign(c, pal, depth + 1); });
+    }
+  }
+
+  // ---- 底色纹理层：在背景 rect 之后、内容之前插入 ----
+  // texture: {kind:none|dots|grid|lines|paper|noise, color, size, opacity, width}
+  function bgLayer(svgObj, w, h, th) {
+    var tx = th.texture;
+    if (!tx || !tx.kind || tx.kind === 'none') return;
+    var kind = tx.kind;
+    var color = tx.color || th.inkSoft || '#999999';
+    var size = tx.size || 28;
+    var op = (tx.opacity === undefined ? 0.10 : tx.opacity);
+    var lw = tx.width || 1;
+    var ns = 'http://www.w3.org/2000/svg';
+    var defs = svgObj.defs();
+    var pat = document.createElementNS(ns, 'pattern');
+    pat.setAttribute('id', 'mmk-tex');
+    pat.setAttribute('patternUnits', 'userSpaceOnUse');
+    pat.setAttribute('width', size);
+    pat.setAttribute('height', size);
+    function el(tag, attrs) {
+      var e = document.createElementNS(ns, tag);
+      for (var k in attrs) e.setAttribute(k, attrs[k]);
+      return e;
+    }
+    if (kind === 'dots') {
+      pat.appendChild(el('circle', { cx: size / 2, cy: size / 2, r: Math.max(0.6, lw), fill: color, opacity: op }));
+    } else if (kind === 'grid') {
+      pat.appendChild(el('path', { d: 'M0 0H' + size + 'M0 0V' + size, fill: 'none', stroke: color, 'stroke-width': lw, opacity: op }));
+    } else if (kind === 'lines') {
+      pat.appendChild(el('path', { d: 'M0 ' + (size - 0.5) + 'H' + size, fill: 'none', stroke: color, 'stroke-width': lw, opacity: op }));
+    } else if (kind === 'paper') {
+      // 纤维短线：每组 pattern 里撒几道极短斜线，模拟纸纹
+      var d = '';
+      var seed = 7;
+      function rnd() { seed = (seed * 1103515245 + 12345) % 2147483648; return seed / 2147483648; }
+      for (var t = 0; t < 5; t++) {
+        var x0 = rnd() * size, y0 = rnd() * size, len = 2 + rnd() * 4;
+        d += 'M' + x0.toFixed(1) + ' ' + y0.toFixed(1) + 'l' + len.toFixed(1) + ' ' + (rnd() * 2 - 1).toFixed(1) + ' ';
+      }
+      pat.appendChild(el('path', { d: d, fill: 'none', stroke: color, 'stroke-width': Math.max(0.5, lw * 0.8), opacity: op }));
+    } else if (kind === 'noise') {
+      // 伪随机点阵，比 dots 更密更细
+      var dd = '';
+      var sd = 13;
+      function rnd2() { sd = (sd * 1103515245 + 12345) % 2147483648; return sd / 2147483648; }
+      for (var q = 0; q < 12; q++) {
+        var cx = rnd2() * size, cy = rnd2() * size;
+        dd += 'M' + cx.toFixed(1) + ' ' + cy.toFixed(1) + 'h0.6 ';
+      }
+      pat.appendChild(el('path', { d: dd, stroke: color, 'stroke-width': 0.6, opacity: op }));
+    } else {
+      return;
+    }
+    defs.node.appendChild(pat);
+    var rect = el('rect', { x: 0, y: 0, width: w, height: h, fill: 'url(#mmk-tex)' });
+    svgObj.node.insertBefore(rect, svgObj.node.firstChild.nextSibling);
+  }
+
+  // ---- 统计 ----
+  function walk(n, fn, depth) {
+    depth = depth || 0;
+    fn(n, depth);
+    (n.children || []).forEach(function (c) { walk(c, fn, depth + 1); });
+  }
+
+  // ---- 加注：⚠️ 语义标记 ----
+  function annotate(tree) {
+    var warns = 0, figs = 0, tabs = 0;
+    walk(tree, function (n) {
+      var d = n.data || (n.data = {});
+      if (d.__mmk_mark === 'warn') { warns++; }
+      if (d.__mmk_tag === 'fig') figs++;
+      if (d.__mmk_tag === 'tab') tabs++;
+      if (d.__mmk_tagValue) {
+        // 正文里多半已经写了「（图2-5）」——源教材的行文习惯。此时再追一个
+        // 〔图2-5〕就是同一句话里说两遍，改成只在正文没提过编号时补锚点。
+        var v = String(d.__mmk_tagValue);
+        var kw = d.__mmk_tag === 'fig' ? '图' : '表';
+        var body = String(d.text || '');
+        var seen = body.indexOf('图' + v) >= 0 || body.indexOf('表' + v) >= 0 ||
+                   body.indexOf(v) >= 0;
+        if (!seen) {
+          // 阶段1：图号/表号以浅色小字跟在正文后，避免与主题色冲突
+          if (d.__mmk_tag === 'fig') d.text = body + ' 〔图' + v + '〕';
+          if (d.__mmk_tag === 'tab') d.text = body + ' 〔表' + v + '〕';
+        } else {
+          d.__mmk_anchor = kw + v;   // 供装饰层统计，不重复书写
+        }
+      }
+    });
+    return { warns: warns, figs: figs, tabs: tabs };
+  }
+
+  function build() {
+    var Ctor = getCtor();
+    if (!Ctor) return fail('simpleMindMap 全局未加载');
+
+    var th = CFG.theme;
+    if (Ctor.defineTheme) Ctor.defineTheme(CFG.themeName, th.smm || {});
+
+    var stat = annotate(TREE);
+    paint(TREE, th);
+
+    var mm = new Ctor({
+      el: document.getElementById('stage'),
+      data: TREE,
+      layout: CFG.layout,
+      theme: CFG.themeName,
+      readonly: true,
+      enableFreeDrag: false,
+      mousewheelAction: 'none',
+      selectNewNode: false,
+      fit: false,
+      maxCanvasWidth: 100000,
+      maxCanvasHeight: 100000,
+      exportPaddingX: CFG.paddingX,
+      exportPaddingY: CFG.paddingY,
+      // 节点自动换行宽度。SMM 默认 500px（约 35em），一行能塞 60+ 字，
+      // 密集正文会拉成极长的横条；主题 smm 段按「叶子字号 × 20 字」折算后传入。
+      textAutoWrapWidth: (th.smm && th.smm.textAutoWrapWidth) || 320,
+      imgTextMargin: 6,
+      textContentMargin: 2,
+      defaultInsertSecondLevelNodeText: '',
+      defaultInsertBelowSecondLevelNodeText: ''
+    });
+
+    var nodes = 0, leaves = 0, maxLevel = 0;
+    walk(TREE, function (n, d) { nodes++; if (!n.children || !n.children.length) leaves++; if (d > maxLevel) maxLevel = d; });
+    window.__MMK__.nodeCount = nodes;
+
+    // 等渲染完成：优先等 node_tree_render_end 事件，再补一段固定等待，
+    // 因为 rAF 在无头模式下可能早于节点实际绘制完成（实测会拿到 112×112 空画布）。
+    var rendered = false;
+    try { mm.on('node_tree_render_end', function () { rendered = true; }); } catch (e) {}
+
+    function settle(cb) {
+      var start = Date.now();
+      (function tick() {
+        var elapsed = Date.now() - start;
+        if ((rendered && elapsed > 700) || elapsed > 6000) return cb();
+        setTimeout(tick, 60);
+      })();
+    }
+
+    settle(function () {
+      try {
+        // 注意：mm.getSvgData() 返回 { svg(SVG.js对象), svgHTML, clipData, rect, ... }
+        // 不是 { node, str } —— 那是 doExport 插件的封装。
+        var res = mm.getSvgData({ paddingX: CFG.paddingX, paddingY: CFG.paddingY });
+        var svgObj = res.svg;
+        var w = Math.ceil(res.rect.width);
+        var h = Math.ceil(res.rect.height);
+        svgObj.size(w, h);
+
+        // 背景：SMM 导出的 SVG 无底色，补一层不透明底（放在最底层）
+        var bgRect = svgObj.rect(w, h).fill(th.paper);
+        svgObj.node.insertBefore(bgRect.node, svgObj.node.firstChild);
+        bgLayer(svgObj, w, h, th);
+
+        var str = svgObj.svg();
+        window.__MMK__.svg = str;
+        window.__MMK__.dims = { width: w, height: h, paddingX: CFG.paddingX, paddingY: CFG.paddingY };
+        window.__MMK__.stats = { nodes: nodes, leaves: leaves, maxLevel: maxLevel,
+                                 warns: stat.warns, figs: stat.figs, tabs: stat.tabs };
+        window.__MMK__.stage = 'done';
+        document.title = 'MMK_OK ' + w + 'x' + h;
+      } catch (e) {
+        fail('getSvgData 失败: ' + e.message, e);
+      }
+    });
+  }
+
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    setTimeout(build, 60);
+  } else {
+    window.addEventListener('DOMContentLoaded', function () { setTimeout(build, 60); });
+  }
+})();
+</script>
+</body>
+</html>

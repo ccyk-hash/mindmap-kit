@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+# mindmap-kit 便捷入口（bash / Git-Bash / MSYS）
+#
+# 用法：
+#   ./bin/mmk doctor
+#   ./bin/mmk build 你的笔记.md --theme morandi -o out/xxx
+#   ./bin/mmk audit out/xxx
+#
+# 解释器选择顺序：$MMK_PYTHON → python3 → python → 常见安装路径。
+# 每个候选都要能真正跑起来才算数 —— Windows 的
+# AppData\Local\Microsoft\WindowsApps\python3.exe 是应用商店占位符，
+# 存在但执行后什么都不输出，不筛掉会导致整个命令静默无结果。
+set -uo pipefail
+
+SELF_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+KIT_ROOT="$(cd "$SELF_DIR/.." && pwd)"
+
+_usable() {
+  local p="$1"
+  [[ -n "$p" ]] || return 1
+  command -v "$p" >/dev/null 2>&1 || [[ -x "$p" ]] || return 1
+  "$p" -c "import sys" >/dev/null 2>&1
+}
+
+pick_python() {
+  if _usable "${MMK_PYTHON:-}"; then echo "$MMK_PYTHON"; return 0; fi
+  local c
+  for c in python3 python py; do
+    if _usable "$c"; then echo "$c"; return 0; fi
+  done
+  for c in \
+    "C:/Users/pgc/.workbuddy/binaries/python/envs/default/Scripts/python.exe" \
+    "C:/Python314/python.exe" \
+    "C:/Python313/python.exe" \
+    "C:/Python312/python.exe"; do
+    if _usable "$c"; then echo "$c"; return 0; fi
+  done
+  return 1
+}
+
+if ! PY="$(pick_python)"; then
+  echo "× 找不到可用的 Python 解释器。" >&2
+  echo "  设一个环境变量再试：export MMK_PYTHON=/path/to/python.exe" >&2
+  exit 4
+fi
+
+# MSYS 的 /c/Users/... 写法 Windows 版 Python 读不懂，转成 C:/Users/...
+if command -v cygpath >/dev/null 2>&1; then
+  KIT_ROOT_WIN="$(cygpath -m "$KIT_ROOT")"
+else
+  KIT_ROOT_WIN="$KIT_ROOT"
+fi
+
+# 不碰 PYTHONPATH：MSYS 会用 ':' 拼路径列表，而 Windows 版 Python 认 ';'，
+# 两边约定不一致时整个路径被当成一个不存在的目录（ModuleNotFoundError）。
+# 改成在解释器内部 sys.path.insert，彻底绕开环境变量的方言差异。
+export PYTHONIOENCODING=utf-8
+exec "$PY" -c '
+import sys
+sys.path.insert(0, sys.argv[1])
+from kit.cli import main
+sys.exit(main(sys.argv[2:]))
+' "$KIT_ROOT_WIN" "$@"

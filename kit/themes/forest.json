@@ -1,0 +1,271 @@
+{
+  "$schema": "./_schema.json",
+  "name": "forest",
+  "label": "森林",
+  "description": "浅苔绿纸底 + 雅黑 + 渐变叶脉节点；自然、耐看、适合长图。",
+  "paper": "#F4F7EF",
+  "ink": "#22301F",
+  "inkSoft": "#5A6B52",
+  "sizes": {
+    "root": 44,
+    "second": 28,
+    "node": 20,
+    "leaf": 16,
+    "tag": 14
+  },
+  "pad": {
+    "rootX": 36,
+    "rootY": 18,
+    "secondX": 22,
+    "secondY": 12,
+    "nodeX": 16,
+    "nodeY": 9,
+    "leafX": 12,
+    "leafY": 6
+  },
+  "radius": {
+    "root": 12,
+    "second": 10,
+    "node": 8,
+    "leaf": 6
+  },
+  "shapes": {
+    "root": "roundRectangle",
+    "second": "roundRectangle",
+    "node": "roundRectangle"
+  },
+  "line": {
+    "color": "#7E9470",
+    "width1": 3.0,
+    "width2": 2.0,
+    "width3": 1.2,
+    "style": "curve",
+    "radius": 12,
+    "nodeBorderW": 1
+  },
+  "branches": [
+    {
+      "name": "pine",
+      "main": "#2F6B4F",
+      "deep": "#25533E",
+      "pale": "#EAF0ED",
+      "mist": "#F6F8F7",
+      "edge": "#C5D6CE",
+      "tint": "#E2EAE6"
+    },
+    {
+      "name": "moss",
+      "main": "#4E7A3A",
+      "deep": "#3D5F2D",
+      "pale": "#EDF2EB",
+      "mist": "#F7F9F6",
+      "edge": "#CDDAC8",
+      "tint": "#E6ECE3"
+    },
+    {
+      "name": "bamboo",
+      "main": "#6B8E4E",
+      "deep": "#536F3D",
+      "pale": "#F0F4ED",
+      "mist": "#F8FAF7",
+      "edge": "#D6DFCD",
+      "tint": "#EAEFE6"
+    },
+    {
+      "name": "fern",
+      "main": "#3E7A62",
+      "deep": "#305F4C",
+      "pale": "#ECF2EF",
+      "mist": "#F6F9F8",
+      "edge": "#C9DAD3",
+      "tint": "#E4ECE9"
+    },
+    {
+      "name": "olive",
+      "main": "#7A7A34",
+      "deep": "#5F5F29",
+      "pale": "#F2F2EB",
+      "mist": "#F9F9F6",
+      "edge": "#DADAC6",
+      "tint": "#ECECE3"
+    },
+    {
+      "name": "cedar",
+      "main": "#2E5F55",
+      "deep": "#244A42",
+      "pale": "#EAEFEE",
+      "mist": "#F6F8F7",
+      "edge": "#C4D2CF",
+      "tint": "#E2E9E7"
+    },
+    {
+      "name": "liverwort",
+      "main": "#55703C",
+      "deep": "#42572F",
+      "pale": "#EEF1EC",
+      "mist": "#F7F9F6",
+      "edge": "#CFD7C8",
+      "tint": "#E7EBE4"
+    },
+    {
+      "name": "jade",
+      "main": "#3C8055",
+      "deep": "#2F6442",
+      "pale": "#ECF2EE",
+      "mist": "#F6F9F7",
+      "edge": "#C8DBCF",
+      "tint": "#E4EDE7"
+    },
+    {
+      "name": "wood",
+      "main": "#2A5A42",
+      "deep": "#214633",
+      "pale": "#EAEEEC",
+      "mist": "#F5F8F6",
+      "edge": "#C3D1CA",
+      "tint": "#E1E8E5"
+    },
+    {
+      "name": "sage",
+      "main": "#6E8452",
+      "deep": "#566740",
+      "pale": "#F0F3EE",
+      "mist": "#F8F9F7",
+      "edge": "#D6DDCF",
+      "tint": "#EBEEE7"
+    },
+    {
+      "name": "tundra",
+      "main": "#4A6B45",
+      "deep": "#3A5336",
+      "pale": "#EDF0EC",
+      "mist": "#F7F8F7",
+      "edge": "#CCD6CB",
+      "tint": "#E6EAE5"
+    },
+    {
+      "name": "vine",
+      "main": "#587A4A",
+      "deep": "#455F3A",
+      "pale": "#EEF2ED",
+      "mist": "#F7F9F7",
+      "edge": "#D0DACC",
+      "tint": "#E8ECE6"
+    },
+    {
+      "name": "malachite",
+      "main": "#46705E",
+      "deep": "#375749",
+      "pale": "#ECF1EF",
+      "mist": "#F7F9F8",
+      "edge": "#CBD7D2",
+      "tint": "#E5EBE8"
+    },
+    {
+      "name": "sprout",
+      "main": "#7FA05A",
+      "deep": "#637D46",
+      "pale": "#F2F6EE",
+      "mist": "#F9FBF8",
+      "edge": "#DBE4D1",
+      "tint": "#EDF2E8"
+    }
+  ],
+  "smm": {
+    "backgroundColor": "#F4F7EF",
+    "textAutoWrapWidth": 336,
+    "lineColor": "#7E9470",
+    "lineWidth": 2.2,
+    "lineStyle": "curve",
+    "lineRadius": 12,
+    "rootLineKeepSameInCurve": true,
+    "paddingX": 18,
+    "paddingY": 9,
+    "root": {
+      "shape": "roundRectangle",
+      "fillColor": "#22301F",
+      "color": "#F4F7EF",
+      "fontFamily": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+      "fontSize": 44,
+      "fontWeight": "bold",
+      "borderRadius": 14,
+      "borderWidth": 0,
+      "paddingX": 36,
+      "paddingY": 18,
+      "textAlign": "center"
+    },
+    "second": {
+      "shape": "roundRectangle",
+      "fillColor": "#2F6B4F",
+      "color": "#FFFFFF",
+      "fontFamily": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+      "fontSize": 28,
+      "fontWeight": "bold",
+      "borderRadius": 12,
+      "borderWidth": 0,
+      "paddingX": 23,
+      "paddingY": 13,
+      "textAlign": "center",
+      "marginX": 86,
+      "marginY": 32
+    },
+    "node": {
+      "shape": "roundRectangle",
+      "fillColor": "#E7EFDF",
+      "color": "#1F2E1C",
+      "fontFamily": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+      "fontSize": 20,
+      "fontWeight": "normal",
+      "borderRadius": 10,
+      "borderColor": "#C6D5B6",
+      "borderWidth": 1,
+      "paddingX": 16,
+      "paddingY": 9,
+      "textAlign": "left",
+      "marginX": 48,
+      "marginY": 2
+    }
+  },
+  "fonts": {
+    "root": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+    "second": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+    "node": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+    "leaf": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif"
+  },
+  "texture": {
+    "kind": "dots",
+    "color": "#4E7A3A",
+    "size": 26,
+    "opacity": 0.11,
+    "width": 1
+  },
+  "levels": {
+    "1": {
+      "gradient": true,
+      "borderWidth": 0,
+      "borderRadius": 12,
+      "paddingX": 23,
+      "paddingY": 13
+    },
+    "2": {
+      "fillColor": "{pale}",
+      "color": "#1F2E1C",
+      "borderColor": "{edge}",
+      "borderWidth": 1.0,
+      "borderRadius": 10,
+      "fontWeight": "bold"
+    },
+    "3": {
+      "fillColor": "{mist}",
+      "color": "#4A5B44",
+      "borderColor": "transparent",
+      "borderWidth": 0,
+      "borderRadius": 8
+    },
+    "4": {
+      "fillColor": "transparent",
+      "color": "#5A6B52",
+      "borderWidth": 0
+    }
+  }
+}

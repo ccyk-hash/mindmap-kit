@@ -1,0 +1,273 @@
+{
+  "$schema": "./_schema.json",
+  "name": "neon",
+  "label": "暗色霓虹",
+  "description": "近黑底 + 荧光描边 + 细噪点；适合投屏演示与暗色阅读场景。",
+  "paper": "#0B0D12",
+  "ink": "#E6ECF5",
+  "inkSoft": "#8B97A8",
+  "sizes": {
+    "root": 44,
+    "second": 27,
+    "node": 19,
+    "leaf": 15,
+    "tag": 13
+  },
+  "pad": {
+    "rootX": 36,
+    "rootY": 18,
+    "secondX": 22,
+    "secondY": 12,
+    "nodeX": 16,
+    "nodeY": 9,
+    "leafX": 12,
+    "leafY": 6
+  },
+  "radius": {
+    "root": 10,
+    "second": 8,
+    "node": 6,
+    "leaf": 4
+  },
+  "shapes": {
+    "root": "roundRectangle",
+    "second": "roundRectangle",
+    "node": "roundRectangle"
+  },
+  "line": {
+    "color": "#5A6478",
+    "width1": 2.8,
+    "width2": 1.8,
+    "width3": 1.1,
+    "style": "curve",
+    "radius": 10,
+    "nodeBorderW": 1
+  },
+  "branches": [
+    {
+      "name": "cyan",
+      "main": "#00E5FF",
+      "deep": "#47ECFF",
+      "pale": "#0A2931",
+      "mist": "#0A1C23",
+      "edge": "#076371",
+      "tint": "#09343D"
+    },
+    {
+      "name": "pink",
+      "main": "#FF3D7F",
+      "deep": "#FF73A3",
+      "pale": "#2B1320",
+      "mist": "#1C101A",
+      "edge": "#6D203E",
+      "tint": "#371626"
+    },
+    {
+      "name": "purple",
+      "main": "#B14BFF",
+      "deep": "#C77DFF",
+      "pale": "#211531",
+      "mist": "#171123",
+      "edge": "#4D2671",
+      "tint": "#29183D"
+    },
+    {
+      "name": "green",
+      "main": "#39FF88",
+      "deep": "#70FFA9",
+      "pale": "#112C21",
+      "mist": "#0E1E1A",
+      "edge": "#1D6E41",
+      "tint": "#133927"
+    },
+    {
+      "name": "yellow",
+      "main": "#FFD500",
+      "deep": "#FFE147",
+      "pale": "#2B2710",
+      "mist": "#1C1B11",
+      "edge": "#6D5D0B",
+      "tint": "#37310F"
+    },
+    {
+      "name": "orange",
+      "main": "#FF7A45",
+      "deep": "#FF9F79",
+      "pale": "#2B1B19",
+      "mist": "#1C1516",
+      "edge": "#6D3926",
+      "tint": "#37211B"
+    },
+    {
+      "name": "blue",
+      "main": "#5D8BFF",
+      "deep": "#8AABFF",
+      "pale": "#161D31",
+      "mist": "#111623",
+      "edge": "#2C3F71",
+      "tint": "#1A243D"
+    },
+    {
+      "name": "aqua",
+      "main": "#00FFC6",
+      "deep": "#47FFD6",
+      "pale": "#0A2C29",
+      "mist": "#0A1E1F",
+      "edge": "#076E5A",
+      "tint": "#093932"
+    },
+    {
+      "name": "magenta",
+      "main": "#FF5EC4",
+      "deep": "#FF8BD5",
+      "pale": "#2B1829",
+      "mist": "#1C131E",
+      "edge": "#6D2D59",
+      "tint": "#371C32"
+    },
+    {
+      "name": "lime",
+      "main": "#9DFF3D",
+      "deep": "#B8FF73",
+      "pale": "#1E2C18",
+      "mist": "#151E15",
+      "edge": "#456E23",
+      "tint": "#25391A"
+    },
+    {
+      "name": "sky",
+      "main": "#4DD2FF",
+      "deep": "#7FDFFF",
+      "pale": "#142731",
+      "mist": "#101B23",
+      "edge": "#255C71",
+      "tint": "#17303D"
+    },
+    {
+      "name": "blush",
+      "main": "#FFA0E0",
+      "deep": "#FFBBE9",
+      "pale": "#2B202D",
+      "mist": "#1C1720",
+      "edge": "#6D4864",
+      "tint": "#372737"
+    },
+    {
+      "name": "indigo",
+      "main": "#7C6BFF",
+      "deep": "#A194FF",
+      "pale": "#1A1931",
+      "mist": "#131423",
+      "edge": "#383371",
+      "tint": "#1F1E3D"
+    },
+    {
+      "name": "amber",
+      "main": "#FFB800",
+      "deep": "#FFCC47",
+      "pale": "#2B2310",
+      "mist": "#1C1911",
+      "edge": "#6D510B",
+      "tint": "#372C0F"
+    }
+  ],
+  "smm": {
+    "backgroundColor": "#0B0D12",
+    "textAutoWrapWidth": 315,
+    "lineColor": "#5A6478",
+    "lineWidth": 1.8,
+    "lineStyle": "curve",
+    "lineRadius": 10,
+    "rootLineKeepSameInCurve": true,
+    "paddingX": 16,
+    "paddingY": 8,
+    "root": {
+      "shape": "roundRectangle",
+      "fillColor": "#12161F",
+      "color": "#00E5FF",
+      "fontFamily": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+      "fontSize": 44,
+      "fontWeight": "bold",
+      "borderRadius": 12,
+      "borderColor": "#00E5FF",
+      "borderWidth": 1.8,
+      "paddingX": 36,
+      "paddingY": 18,
+      "textAlign": "center"
+    },
+    "second": {
+      "shape": "roundRectangle",
+      "fillColor": "#12161F",
+      "color": "#E6ECF5",
+      "fontFamily": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+      "fontSize": 27,
+      "fontWeight": "bold",
+      "borderRadius": 10,
+      "borderColor": "#5D8BFF",
+      "borderWidth": 1.4,
+      "paddingX": 22,
+      "paddingY": 12,
+      "textAlign": "center",
+      "marginX": 84,
+      "marginY": 30
+    },
+    "node": {
+      "shape": "roundRectangle",
+      "fillColor": "#141821",
+      "color": "#D7E0EC",
+      "fontFamily": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+      "fontSize": 19,
+      "fontWeight": "normal",
+      "borderRadius": 8,
+      "borderColor": "#2A3140",
+      "borderWidth": 1,
+      "paddingX": 16,
+      "paddingY": 9,
+      "textAlign": "left",
+      "marginX": 46,
+      "marginY": 0
+    }
+  },
+  "fonts": {
+    "root": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+    "second": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+    "node": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif",
+    "leaf": "\"Microsoft YaHei\", 微软雅黑, \"Noto Sans SC\", sans-serif"
+  },
+  "texture": {
+    "kind": "noise",
+    "color": "#FFFFFF",
+    "size": 30,
+    "opacity": 0.05,
+    "width": 0.6
+  },
+  "levels": {
+    "1": {
+      "fillColor": "#12161F",
+      "color": "{main}",
+      "borderColor": "{main}",
+      "borderWidth": 1.8,
+      "borderRadius": 10,
+      "fontWeight": "bold"
+    },
+    "2": {
+      "fillColor": "#141821",
+      "color": "#D7E0EC",
+      "borderColor": "{edge}",
+      "borderWidth": 1.0,
+      "borderRadius": 8,
+      "fontWeight": "bold"
+    },
+    "3": {
+      "fillColor": "transparent",
+      "color": "#8B97A8",
+      "borderColor": "transparent",
+      "borderWidth": 0
+    },
+    "4": {
+      "fillColor": "transparent",
+      "color": "#76839A",
+      "borderWidth": 0
+    }
+  }
+}

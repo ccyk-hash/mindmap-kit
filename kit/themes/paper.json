@@ -1,0 +1,271 @@
+{
+  "$schema": "./_schema.json",
+  "name": "paper",
+  "label": "纸张卡片",
+  "description": "奶白纸底 + 等线体 + 圆角卡片与同族浅描边；最像教材插图的一套。",
+  "paper": "#FBF6EC",
+  "ink": "#2C2620",
+  "inkSoft": "#6B6157",
+  "sizes": {
+    "root": 44,
+    "second": 27,
+    "node": 20,
+    "leaf": 16,
+    "tag": 14
+  },
+  "pad": {
+    "rootX": 38,
+    "rootY": 20,
+    "secondX": 24,
+    "secondY": 13,
+    "nodeX": 18,
+    "nodeY": 10,
+    "leafX": 12,
+    "leafY": 6
+  },
+  "radius": {
+    "root": 14,
+    "second": 12,
+    "node": 10,
+    "leaf": 8
+  },
+  "shapes": {
+    "root": "roundRectangle",
+    "second": "roundRectangle",
+    "node": "roundRectangle"
+  },
+  "line": {
+    "color": "#9C9184",
+    "width1": 3.2,
+    "width2": 2.2,
+    "width3": 1.4,
+    "style": "curve",
+    "radius": 10,
+    "nodeBorderW": 1
+  },
+  "branches": [
+    {
+      "name": "zhuan",
+      "main": "#A2564B",
+      "deep": "#7E433A",
+      "pale": "#F6EEED",
+      "mist": "#FBF7F7",
+      "edge": "#E5D0CD",
+      "tint": "#F2E7E6"
+    },
+    {
+      "name": "zhe",
+      "main": "#9A6B33",
+      "deep": "#785328",
+      "pale": "#F5F0EB",
+      "mist": "#FAF8F6",
+      "edge": "#E3D6C6",
+      "tint": "#F1EAE2"
+    },
+    {
+      "name": "ganlan",
+      "main": "#7A7B44",
+      "deep": "#5F6035",
+      "pale": "#F2F2EC",
+      "mist": "#F9F9F7",
+      "edge": "#DADACB",
+      "tint": "#ECEDE5"
+    },
+    {
+      "name": "song",
+      "main": "#4F6E5A",
+      "deep": "#3E5646",
+      "pale": "#EDF0EE",
+      "mist": "#F7F8F8",
+      "edge": "#CED6D1",
+      "tint": "#E6EBE8"
+    },
+    {
+      "name": "qing",
+      "main": "#4C6E7A",
+      "deep": "#3B565F",
+      "pale": "#EDF0F2",
+      "mist": "#F7F8F9",
+      "edge": "#CDD6DA",
+      "tint": "#E6EBEC"
+    },
+    {
+      "name": "dian",
+      "main": "#46577A",
+      "deep": "#37445F",
+      "pale": "#ECEEF2",
+      "mist": "#F7F7F9",
+      "edge": "#CBD0DA",
+      "tint": "#E5E7EC"
+    },
+    {
+      "name": "zi",
+      "main": "#6E5478",
+      "deep": "#56425E",
+      "pale": "#F0EEF2",
+      "mist": "#F8F7F9",
+      "edge": "#D6CFD9",
+      "tint": "#EBE7EC"
+    },
+    {
+      "name": "mei",
+      "main": "#8A4E66",
+      "deep": "#6C3D50",
+      "pale": "#F3EDF0",
+      "mist": "#FAF7F8",
+      "edge": "#DECDD4",
+      "tint": "#EFE6EA"
+    },
+    {
+      "name": "keke",
+      "main": "#7A5A45",
+      "deep": "#5F4636",
+      "pale": "#F2EEEC",
+      "mist": "#F9F8F7",
+      "edge": "#DAD1CB",
+      "tint": "#ECE8E5"
+    },
+    {
+      "name": "mai",
+      "main": "#A8823F",
+      "deep": "#836531",
+      "pale": "#F6F2EC",
+      "mist": "#FBF9F6",
+      "edge": "#E7DCC9",
+      "tint": "#F3EEE4"
+    },
+    {
+      "name": "huilv",
+      "main": "#5E6E5E",
+      "deep": "#495649",
+      "pale": "#EFF0EF",
+      "mist": "#F8F8F8",
+      "edge": "#D2D6D2",
+      "tint": "#E8EBE8"
+    },
+    {
+      "name": "tao",
+      "main": "#A8684C",
+      "deep": "#83513B",
+      "pale": "#F6F0ED",
+      "mist": "#FBF8F7",
+      "edge": "#E7D5CD",
+      "tint": "#F3EAE6"
+    },
+    {
+      "name": "yan",
+      "main": "#6A6A66",
+      "deep": "#535350",
+      "pale": "#F0F0F0",
+      "mist": "#F8F8F8",
+      "edge": "#D5D5D4",
+      "tint": "#EAEAEA"
+    },
+    {
+      "name": "mi",
+      "main": "#B08A4A",
+      "deep": "#896C3A",
+      "pale": "#F7F3ED",
+      "mist": "#FBFAF7",
+      "edge": "#E9DECC",
+      "tint": "#F4EFE6"
+    }
+  ],
+  "smm": {
+    "backgroundColor": "#FBF6EC",
+    "textAutoWrapWidth": 336,
+    "lineColor": "#9C9184",
+    "lineWidth": 2.2,
+    "lineStyle": "curve",
+    "lineRadius": 10,
+    "rootLineKeepSameInCurve": true,
+    "paddingX": 18,
+    "paddingY": 9,
+    "root": {
+      "shape": "roundRectangle",
+      "fillColor": "#2C2620",
+      "color": "#FBF6EC",
+      "fontFamily": "\"DengXian\", 等线, \"Microsoft YaHei\", sans-serif",
+      "fontSize": 44,
+      "fontWeight": "bold",
+      "borderRadius": 16,
+      "borderWidth": 0,
+      "paddingX": 38,
+      "paddingY": 20,
+      "textAlign": "center"
+    },
+    "second": {
+      "shape": "roundRectangle",
+      "fillColor": "#A2564B",
+      "color": "#FFFFFF",
+      "fontFamily": "\"DengXian\", 等线, \"Microsoft YaHei\", sans-serif",
+      "fontSize": 27,
+      "fontWeight": "bold",
+      "borderRadius": 12,
+      "borderWidth": 0,
+      "paddingX": 24,
+      "paddingY": 13,
+      "textAlign": "center",
+      "marginX": 86,
+      "marginY": 32
+    },
+    "node": {
+      "shape": "roundRectangle",
+      "fillColor": "#FFFFFF",
+      "color": "#2C2620",
+      "fontFamily": "\"DengXian\", 等线, \"Microsoft YaHei\", sans-serif",
+      "fontSize": 20,
+      "fontWeight": "normal",
+      "borderRadius": 10,
+      "borderColor": "#DCD1BE",
+      "borderWidth": 1,
+      "paddingX": 18,
+      "paddingY": 10,
+      "textAlign": "left",
+      "marginX": 48,
+      "marginY": 2
+    }
+  },
+  "fonts": {
+    "root": "\"DengXian\", 等线, \"Microsoft YaHei\", sans-serif",
+    "second": "\"DengXian\", 等线, \"Microsoft YaHei\", sans-serif",
+    "node": "\"DengXian\", 等线, \"Microsoft YaHei\", sans-serif",
+    "leaf": "\"DengXian\", 等线, \"Microsoft YaHei\", sans-serif"
+  },
+  "texture": {
+    "kind": "paper",
+    "color": "#A89372",
+    "size": 40,
+    "opacity": 0.13,
+    "width": 0.7
+  },
+  "levels": {
+    "1": {
+      "gradient": true,
+      "borderWidth": 0,
+      "borderRadius": 14,
+      "paddingX": 24,
+      "paddingY": 14
+    },
+    "2": {
+      "fillColor": "#FFFFFF",
+      "color": "#2C2620",
+      "borderColor": "{edge}",
+      "borderWidth": 1.0,
+      "borderRadius": 10,
+      "fontWeight": "bold"
+    },
+    "3": {
+      "fillColor": "{mist}",
+      "color": "#6B6157",
+      "borderColor": "transparent",
+      "borderWidth": 0,
+      "borderRadius": 8
+    },
+    "4": {
+      "fillColor": "transparent",
+      "color": "#6B6157",
+      "borderWidth": 0
+    }
+  }
+}

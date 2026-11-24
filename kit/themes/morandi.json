@@ -1,0 +1,215 @@
+{
+  "$schema": "./_schema.json",
+  "name": "morandi",
+  "label": "莫兰迪学术",
+  "description": "学术低饱和配色，沿用第2章交付件体例；出版级、讲义、复习卡首选。",
+  "paper": "#FCFCFB",
+  "ink": "#1F2733",
+  "inkSoft": "#5A6472",
+  "sizes": {
+    "root": 44,
+    "second": 28,
+    "node": 20,
+    "leaf": 16,
+    "tag": 14
+  },
+  "pad": {
+    "rootX": 36,
+    "rootY": 18,
+    "secondX": 22,
+    "secondY": 12,
+    "nodeX": 16,
+    "nodeY": 9,
+    "leafX": 12,
+    "leafY": 6
+  },
+  "radius": {
+    "root": 10,
+    "second": 8,
+    "node": 6,
+    "leaf": 4
+  },
+  "shapes": {
+    "root": "roundRectangle",
+    "second": "roundRectangle",
+    "node": "roundRectangle"
+  },
+  "line": {
+    "color": "#8C97A3",
+    "width1": 3.0,
+    "width2": 2.0,
+    "width3": 1.3,
+    "style": "curve",
+    "radius": 8,
+    "nodeBorderW": 1
+  },
+  "branches": [
+    {
+      "name": "indigo",
+      "main": "#33507A",
+      "deep": "#243A58",
+      "pale": "#EDF1F7",
+      "mist": "#E3EAF4",
+      "edge": "#C7D3E3"
+    },
+    {
+      "name": "clay",
+      "main": "#9E4A45",
+      "deep": "#7A362F",
+      "pale": "#F8EFEE",
+      "mist": "#F2E3E1",
+      "edge": "#E0C9C5"
+    },
+    {
+      "name": "sage",
+      "main": "#48796A",
+      "deep": "#2E5449",
+      "pale": "#EBF3F0",
+      "mist": "#DEEBE6",
+      "edge": "#C3D9D2"
+    },
+    {
+      "name": "ochre",
+      "main": "#8A621F",
+      "deep": "#684813",
+      "pale": "#F9F2E5",
+      "mist": "#F3E7D2",
+      "edge": "#E2D2B4"
+    },
+    {
+      "name": "teal",
+      "main": "#35708A",
+      "deep": "#225268",
+      "pale": "#E9F2F6",
+      "mist": "#DCECF1",
+      "edge": "#BFD8E3"
+    },
+    {
+      "name": "lilac",
+      "main": "#6B5B8E",
+      "deep": "#4D4169",
+      "pale": "#F2EFF8",
+      "mist": "#E7E1F2",
+      "edge": "#D3CAE3"
+    },
+    {
+      "name": "rose",
+      "main": "#96506F",
+      "deep": "#703A54",
+      "pale": "#F8EDF2",
+      "mist": "#F1DDE7",
+      "edge": "#E2C6D3"
+    },
+    {
+      "name": "olive",
+      "main": "#66752F",
+      "deep": "#4A5620",
+      "pale": "#F4F6E8",
+      "mist": "#EAEEDA",
+      "edge": "#D5DCC0"
+    },
+    {
+      "name": "slate",
+      "main": "#5A6472",
+      "deep": "#404855",
+      "pale": "#F1F3F6",
+      "mist": "#E5E9EF",
+      "edge": "#CBD2DC"
+    },
+    {
+      "name": "rust",
+      "main": "#9C5B33",
+      "deep": "#743F1F",
+      "pale": "#F9F0E8",
+      "mist": "#F2E2D3",
+      "edge": "#E0CBBA"
+    },
+    {
+      "name": "plum",
+      "main": "#7A4A72",
+      "deep": "#5A3454",
+      "pale": "#F6EEF4",
+      "mist": "#EDE0EA",
+      "edge": "#DCC9D7"
+    },
+    {
+      "name": "moss",
+      "main": "#4E6B4A",
+      "deep": "#364B33",
+      "pale": "#EEF3EC",
+      "mist": "#E1EADD",
+      "edge": "#C7D6C2"
+    },
+    {
+      "name": "steel",
+      "main": "#41647A",
+      "deep": "#2C4757",
+      "pale": "#EBF1F5",
+      "mist": "#DDE8EE",
+      "edge": "#C0D0DB"
+    },
+    {
+      "name": "cocoa",
+      "main": "#6E5A45",
+      "deep": "#4F3F2F",
+      "pale": "#F4EFE9",
+      "mist": "#EAE3D9",
+      "edge": "#D6CABB"
+    }
+  ],
+  "smm": {
+    "backgroundColor": "#FCFCFB",
+    "textAutoWrapWidth": 336,
+    "lineColor": "#8C97A3",
+    "lineWidth": 2,
+    "lineStyle": "curve",
+    "lineRadius": 8,
+    "rootLineKeepSameInCurve": true,
+    "paddingX": 16,
+    "paddingY": 8,
+    "root": {
+      "shape": "roundRectangle",
+      "fillColor": "#22303F",
+      "color": "#FFFFFF",
+      "fontFamily": "Microsoft YaHei, 微软雅黑, Noto Sans SC, sans-serif",
+      "fontSize": 44,
+      "fontWeight": "bold",
+      "borderRadius": 10,
+      "borderWidth": 0,
+      "paddingX": 36,
+      "paddingY": 18,
+      "textAlign": "center"
+    },
+    "second": {
+      "shape": "roundRectangle",
+      "fillColor": "#33507A",
+      "color": "#FFFFFF",
+      "fontFamily": "Microsoft YaHei, 微软雅黑, Noto Sans SC, sans-serif",
+      "fontSize": 28,
+      "fontWeight": "bold",
+      "borderRadius": 8,
+      "borderWidth": 0,
+      "paddingX": 22,
+      "paddingY": 12,
+      "textAlign": "center",
+      "marginX": 84,
+      "marginY": 30
+    },
+    "node": {
+      "shape": "roundRectangle",
+      "fillColor": "#EDF1F7",
+      "color": "#1F2733",
+      "fontFamily": "Microsoft YaHei, 微软雅黑, Noto Sans SC, sans-serif",
+      "fontSize": 20,
+      "fontWeight": "normal",
+      "borderRadius": 6,
+      "borderColor": "#C7D3E3",
+      "borderWidth": 1,
+      "paddingX": 16,
+      "paddingY": 9,
+      "textAlign": "left",
+      "marginX": 46,
+      "marginY": 0
+    }
+  }
+}

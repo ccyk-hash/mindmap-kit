@@ -1,0 +1,546 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1861" height="1563"><rect width="1861" height="1563" fill="#fcfcfb"></rect><g class="smm-container" transform="matrix(1,0,0,1,-1144,-225.5)"><g class="smm-line-container"><path d="M 1404,871 C 1550,871 1550,397 1696,397" stroke-dasharray="none" stroke-width="3" stroke="#8c97a3" fill="none"></path><path d="M 1404,871 C 1550,871 1550,652.5 1696,652.5" stroke-dasharray="none" stroke-width="3" stroke="#8c97a3" fill="none"></path><path d="M 1404,871 C 1550,871 1550,898.5 1696,898.5" stroke-dasharray="none" stroke-width="3" stroke="#8c97a3" fill="none"></path><path d="M 1404,871 C 1550,871 1550,1126.5 1696,1126.5" stroke-dasharray="none" stroke-width="3" stroke="#8c97a3" fill="none"></path><path d="M 1404,871 C 1550,871 1550,1354.5 1696,1354.5" stroke-dasharray="none" stroke-width="3" stroke="#8c97a3" fill="none"></path><path d="M 1909,397 C 1934,397 1934,343 1959,343" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 1909,397 C 1934,397 1934,460.5 1959,460.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 2073,343 C 2098,343 2098,307 2123,307" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2073,343 C 2098,343 2098,352.5 2123,352.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2073,343 C 2098,343 2098,388.5 2123,388.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2033,460.5 C 2058,460.5 2058,424.5 2083,424.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2033,460.5 C 2058,460.5 2058,460.5 2083,460.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2033,460.5 C 2058,460.5 2058,496.5 2083,496.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2021,652.5 C 2046,652.5 2046,598.5 2071,598.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 2021,652.5 C 2046,652.5 2046,706.5 2071,706.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 2216,598.5 C 2241,598.5 2241,562.5 2266,562.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2216,598.5 C 2241,598.5 2241,598.5 2266,598.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2216,598.5 C 2241,598.5 2241,634.5 2266,634.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2205,706.5 C 2230,706.5 2230,670.5 2255,670.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2205,706.5 C 2230,706.5 2230,706.5 2255,706.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2205,706.5 C 2230,706.5 2230,742.5 2255,742.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 1965,898.5 C 1990,898.5 1990,844.5 2015,844.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 1965,898.5 C 1990,898.5 1990,952.5 2015,952.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 2129,844.5 C 2154,844.5 2154,808.5 2179,808.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2129,844.5 C 2154,844.5 2154,844.5 2179,844.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2129,844.5 C 2154,844.5 2154,880.5 2179,880.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2129,952.5 C 2154,952.5 2154,916.5 2179,916.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2129,952.5 C 2154,952.5 2154,952.5 2179,952.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2129,952.5 C 2154,952.5 2154,988.5 2179,988.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 1965,1126.5 C 1990,1126.5 1990,1072.5 2015,1072.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 1965,1126.5 C 1990,1126.5 1990,1162.5 2015,1162.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 2089,1072.5 C 2114,1072.5 2114,1054.5 2139,1054.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2089,1072.5 C 2114,1072.5 2114,1090.5 2139,1090.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2089,1162.5 C 2114,1162.5 2114,1126.5 2139,1126.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2089,1162.5 C 2114,1162.5 2114,1162.5 2139,1162.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2089,1162.5 C 2114,1162.5 2114,1198.5 2139,1198.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 1909,1354.5 C 1934,1354.5 1934,1282.5 1959,1282.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 1909,1354.5 C 1934,1354.5 1934,1354.5 1959,1354.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 1909,1354.5 C 1934,1354.5 1934,1426.5 1959,1426.5" stroke-dasharray="none" stroke-width="2" stroke="#8c97a3" fill="none"></path><path d="M 2073,1282.5 C 2098,1282.5 2098,1264.5 2123,1264.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2073,1282.5 C 2098,1282.5 2098,1300.5 2123,1300.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2093,1354.5 C 2118,1354.5 2118,1336.5 2143,1336.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2093,1354.5 C 2118,1354.5 2118,1372.5 2143,1372.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2073,1426.5 C 2098,1426.5 2098,1408.5 2123,1408.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path><path d="M 2073,1426.5 C 2098,1426.5 2098,1444.5 2123,1444.5" stroke-dasharray="none" stroke-width="1.3" stroke="#8c97a3" fill="none"></path></g><g class="smm-outer-frame-container"></g><g class="smm-node-container"><g class="smm-node" transform="matrix(1,0,0,1,1200,800)" style="cursor: default;"><path d="
+      M10,0
+      L398,0
+      C398,0 408,0 408,10
+      L408,132
+      C408,132 408,142 398,142
+      L10,142
+      C10,142 0,142 0,132
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#22303f" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,36,18)"><g data-width="336" data-height="106" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="44" fill="#FFFFFF" xml:space="preserve"><tspan x="14.00" y="32.58" font-weight="bold">示例：高效阅读</tspan><tspan x="102.00" y="85.38" font-weight="bold">一本书</tspan></text></g></g><rect width="412" height="146" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1696,368)" style="cursor: default;"><path d="
+      M8,0
+      L205,0
+      C205,0 213,0 213,8
+      L213,50
+      C213,50 213,58 205,58
+      L8,58
+      C8,58 0,58 0,50
+      L0,8
+      C0,8 0,0 8,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#33507a" stroke-dasharray="none" stroke-width="0" stroke="#243a58"></path><rect fill="transparent" width="20" height="58" x="213" y="0"></rect><g transform="matrix(1,0,0,1,22,12)"><g data-width="169" data-height="34" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="28" fill="#FFFFFF" xml:space="preserve"><tspan x="0.50" y="20.81" font-weight="bold">一、读前准备</tspan></text></g></g><rect width="217" height="62" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1959,321.5)" style="cursor: default;"><path d="
+      M6,0
+      L107,0
+      C107,0 113,0 113,6
+      L113,36
+      C113,36 113,42 107,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#edf1f7" stroke-dasharray="none" stroke-width="1" stroke="#c7d3e3"></path><rect fill="transparent" width="20" height="43" x="114" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="81" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">明确目的</tspan></text></g></g><rect width="118" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2123,281.5)" style="cursor: default;"><path d="
+      M4,0
+      L356,0
+      C356,0 360,0 360,4
+      L360,47
+      C360,47 360,51 356,51
+      L4,51
+      C4,51 0,51 0,47
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#e3eaf4" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="336" data-height="39" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.08" font-weight="normal">为什么读这本：⚠ 说不出目的就先别读，翻十</tspan><tspan x="0.00" y="31.28" font-weight="normal">页就弃</tspan></text></g></g><rect width="364" height="55" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2123,336.5)" style="cursor: default;"><path d="
+      M4,0
+      L277,0
+      C277,0 281,0 281,4
+      L281,28
+      C281,28 281,32 277,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#e3eaf4" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="257" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">想解决的具体问题：写下来，一句话</tspan></text></g></g><rect width="285" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2123,372.5)" style="cursor: default;"><path d="
+      M4,0
+      L322,0
+      C322,0 326,0 326,4
+      L326,28
+      C326,28 326,32 322,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#e3eaf4" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="302" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">预期投入时间：3 小时 / 8 小时 / 分散一周</tspan></text></g></g><rect width="330" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1959,439)" style="cursor: default;"><path d="
+      M6,0
+      L67,0
+      C67,0 73,0 73,6
+      L73,36
+      C73,36 73,42 67,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#edf1f7" stroke-dasharray="none" stroke-width="1" stroke="#c7d3e3"></path><rect fill="transparent" width="20" height="43" x="74" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="41" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">选书</tspan></text></g></g><rect width="78" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2083,408.5)" style="cursor: default;"><path d="
+      M4,0
+      L245,0
+      C245,0 249,0 249,4
+      L249,28
+      C249,28 249,32 245,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#e3eaf4" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="225" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">先看目录结构：章节是否成体系</tspan></text></g></g><rect width="253" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2083,444.5)" style="cursor: default;"><path d="
+      M4,0
+      L261,0
+      C261,0 265,0 265,4
+      L265,28
+      C265,28 265,32 261,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#e3eaf4" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="241" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">看索引与参考文献：作者读过什么</tspan></text></g></g><rect width="269" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2083,480.5)" style="cursor: default;"><path d="
+      M4,0
+      L213,0
+      C213,0 217,0 217,4
+      L217,28
+      C217,28 217,32 213,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#e3eaf4" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="193" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">版本选择：优先最新修订版</tspan></text></g></g><rect width="221" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1696,623.5)" style="cursor: default;"><path d="
+      M8,0
+      L317,0
+      C317,0 325,0 325,8
+      L325,50
+      C325,50 325,58 317,58
+      L8,58
+      C8,58 0,58 0,50
+      L0,8
+      C0,8 0,0 8,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#9e4a45" stroke-dasharray="none" stroke-width="0" stroke="#7a362f"></path><rect fill="transparent" width="20" height="58" x="325" y="0"></rect><g transform="matrix(1,0,0,1,22,12)"><g data-width="281" data-height="34" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="28" fill="#FFFFFF" xml:space="preserve"><tspan x="0.50" y="20.81" font-weight="bold">二、第一遍：结构扫描</tspan></text></g></g><rect width="329" height="62" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2071,577)" style="cursor: default;"><path d="
+      M6,0
+      L138,0
+      C138,0 144,0 144,6
+      L144,36
+      C144,36 144,42 138,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#f8efee" stroke-dasharray="none" stroke-width="1" stroke="#e0c9c5"></path><rect fill="transparent" width="20" height="43" x="145" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="112" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">20 分钟翻完</tspan></text></g></g><rect width="149" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2266,546.5)" style="cursor: default;"><path d="
+      M4,0
+      L277,0
+      C277,0 281,0 281,4
+      L281,28
+      C281,28 281,32 277,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f2e3e1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="257" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">封面、封底、序言、目录、后记全看</tspan></text></g></g><rect width="285" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2266,582.5)" style="cursor: default;"><path d="
+      M4,0
+      L181,0
+      C181,0 185,0 185,4
+      L185,28
+      C185,28 185,32 181,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f2e3e1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="161" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">每章开头结尾各读一段</tspan></text></g></g><rect width="189" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2266,618.5)" style="cursor: default;"><path d="
+      M4,0
+      L165,0
+      C165,0 169,0 169,4
+      L169,28
+      C169,28 169,32 165,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f2e3e1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="145" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">目标：画出全书骨架</tspan></text></g></g><rect width="173" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2071,685)" style="cursor: default;"><path d="
+      M6,0
+      L127,0
+      C127,0 133,0 133,6
+      L133,36
+      C133,36 133,42 127,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#f8efee" stroke-dasharray="none" stroke-width="1" stroke="#e0c9c5"></path><rect fill="transparent" width="20" height="43" x="134" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="101" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">产出骨架图</tspan></text></g></g><rect width="138" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2255,654.5)" style="cursor: default;"><path d="
+      M4,0
+      L139,0
+      C139,0 143,0 143,4
+      L143,28
+      C143,28 143,32 139,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f2e3e1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="119" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">一级分支 = 章节</tspan></text></g></g><rect width="147" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2255,690.5)" style="cursor: default;"><path d="
+      M4,0
+      L203,0
+      C203,0 207,0 207,4
+      L207,28
+      C207,28 207,32 203,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f2e3e1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="183" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">二级分支 = 每章核心主张</tspan></text></g></g><rect width="211" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2255,726.5)" style="cursor: default;"><path d="
+      M4,0
+      L245,0
+      C245,0 249,0 249,4
+      L249,28
+      C249,28 249,32 245,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f2e3e1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="225" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">不要在这一遍做笔记，只画结构</tspan></text></g></g><rect width="253" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1696,869.5)" style="cursor: default;"><path d="
+      M8,0
+      L261,0
+      C261,0 269,0 269,8
+      L269,50
+      C269,50 269,58 261,58
+      L8,58
+      C8,58 0,58 0,50
+      L0,8
+      C0,8 0,0 8,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#48796a" stroke-dasharray="none" stroke-width="0" stroke="#2e5449"></path><rect fill="transparent" width="20" height="58" x="269" y="0"></rect><g transform="matrix(1,0,0,1,22,12)"><g data-width="225" data-height="34" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="28" fill="#FFFFFF" xml:space="preserve"><tspan x="0.50" y="20.81" font-weight="bold">三、第二遍：精读</tspan></text></g></g><rect width="273" height="62" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2015,823)" style="cursor: default;"><path d="
+      M6,0
+      L107,0
+      C107,0 113,0 113,6
+      L113,36
+      C113,36 113,42 107,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#ebf3f0" stroke-dasharray="none" stroke-width="1" stroke="#c3d9d2"></path><rect fill="transparent" width="20" height="43" x="114" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="81" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">逐章推进</tspan></text></g></g><rect width="118" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2179,792.5)" style="cursor: default;"><path d="
+      M4,0
+      L197,0
+      C197,0 201,0 201,4
+      L201,28
+      C201,28 201,32 197,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#deebe6" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="177" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">每章先读标题与小节标题</tspan></text></g></g><rect width="205" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2179,828.5)" style="cursor: default;"><path d="
+      M4,0
+      L181,0
+      C181,0 185,0 185,4
+      L185,28
+      C185,28 185,32 181,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#deebe6" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="161" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">再读首段、末段、图表</tspan></text></g></g><rect width="189" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2179,864.5)" style="cursor: default;"><path d="
+      M4,0
+      L133,0
+      C133,0 137,0 137,4
+      L137,28
+      C137,28 137,32 133,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#deebe6" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="113" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">最后读中间论证</tspan></text></g></g><rect width="141" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2015,931)" style="cursor: default;"><path d="
+      M6,0
+      L107,0
+      C107,0 113,0 113,6
+      L113,36
+      C113,36 113,42 107,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#ebf3f0" stroke-dasharray="none" stroke-width="1" stroke="#c3d9d2"></path><rect fill="transparent" width="20" height="43" x="114" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="81" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">笔记规则</tspan></text></g></g><rect width="118" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2179,900.5)" style="cursor: default;"><path d="
+      M4,0
+      L309,0
+      C309,0 313,0 313,4
+      L313,28
+      C313,28 313,32 309,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#deebe6" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="289" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">只记三类：反直觉的、能用的、看不懂的</tspan></text></g></g><rect width="317" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2179,936.5)" style="cursor: default;"><path d="
+      M4,0
+      L197,0
+      C197,0 201,0 201,4
+      L201,28
+      C201,28 201,32 197,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#deebe6" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="177" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">每条笔记必须能独立成立</tspan></text></g></g><rect width="205" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2179,972.5)" style="cursor: default;"><path d="
+      M4,0
+      L165,0
+      C165,0 169,0 169,4
+      L169,28
+      C169,28 169,32 165,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#deebe6" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="145" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">标注页码，便于回查</tspan></text></g></g><rect width="173" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1696,1097.5)" style="cursor: default;"><path d="
+      M8,0
+      L261,0
+      C261,0 269,0 269,8
+      L269,50
+      C269,50 269,58 261,58
+      L8,58
+      C8,58 0,58 0,50
+      L0,8
+      C0,8 0,0 8,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#8a621f" stroke-dasharray="none" stroke-width="0" stroke="#684813"></path><rect fill="transparent" width="20" height="58" x="269" y="0"></rect><g transform="matrix(1,0,0,1,22,12)"><g data-width="225" data-height="34" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="28" fill="#FFFFFF" xml:space="preserve"><tspan x="0.50" y="20.81" font-weight="bold">四、第三遍：输出</tspan></text></g></g><rect width="273" height="62" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2015,1051)" style="cursor: default;"><path d="
+      M6,0
+      L67,0
+      C67,0 73,0 73,6
+      L73,36
+      C73,36 73,42 67,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#f9f2e5" stroke-dasharray="none" stroke-width="1" stroke="#e2d2b4"></path><rect fill="transparent" width="20" height="43" x="74" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="41" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">复述</tspan></text></g></g><rect width="78" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2139,1038.5)" style="cursor: default;"><path d="
+      M4,0
+      L213,0
+      C213,0 217,0 217,4
+      L217,28
+      C217,28 217,32 213,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f3e7d2" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="193" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">合上书，用自己的话讲一遍</tspan></text></g></g><rect width="221" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2139,1074.5)" style="cursor: default;"><path d="
+      M4,0
+      L261,0
+      C261,0 265,0 265,4
+      L265,28
+      C265,28 265,32 261,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f3e7d2" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="241" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">讲不下去的地方就是没读懂的地方</tspan></text></g></g><rect width="269" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2015,1141)" style="cursor: default;"><path d="
+      M6,0
+      L67,0
+      C67,0 73,0 73,6
+      L73,36
+      C73,36 73,42 67,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#f9f2e5" stroke-dasharray="none" stroke-width="1" stroke="#e2d2b4"></path><rect fill="transparent" width="20" height="43" x="74" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="41" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">应用</tspan></text></g></g><rect width="78" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2139,1110.5)" style="cursor: default;"><path d="
+      M4,0
+      L165,0
+      C165,0 169,0 169,4
+      L169,28
+      C169,28 169,32 165,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f3e7d2" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="145" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">找一个真实场景套用</tspan></text></g></g><rect width="173" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2139,1146.5)" style="cursor: default;"><path d="
+      M4,0
+      L155,0
+      C155,0 159,0 159,4
+      L159,28
+      C159,28 159,32 155,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f3e7d2" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="135" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">写 200 字应用设想</tspan></text></g></g><rect width="163" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2139,1182.5)" style="cursor: default;"><path d="
+      M4,0
+      L181,0
+      C181,0 185,0 185,4
+      L185,28
+      C185,28 185,32 181,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#f3e7d2" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="161" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">只收藏不应用等于没读</tspan></text></g></g><rect width="189" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1696,1325.5)" style="cursor: default;"><path d="
+      M8,0
+      L205,0
+      C205,0 213,0 213,8
+      L213,50
+      C213,50 213,58 205,58
+      L8,58
+      C8,58 0,58 0,50
+      L0,8
+      C0,8 0,0 8,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#35708a" stroke-dasharray="none" stroke-width="0" stroke="#225268"></path><rect fill="transparent" width="20" height="58" x="213" y="0"></rect><g transform="matrix(1,0,0,1,22,12)"><g data-width="169" data-height="34" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="28" fill="#FFFFFF" xml:space="preserve"><tspan x="0.50" y="20.81" font-weight="bold">五、常见误区</tspan></text></g></g><rect width="217" height="62" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1959,1261)" style="cursor: default;"><path d="
+      M6,0
+      L107,0
+      C107,0 113,0 113,6
+      L113,36
+      C113,36 113,42 107,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#e9f2f6" stroke-dasharray="none" stroke-width="1" stroke="#bfd8e3"></path><rect fill="transparent" width="20" height="43" x="114" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="81" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">追求读完</tspan></text></g></g><rect width="118" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2123,1248.5)" style="cursor: default;"><path d="
+      M4,0
+      L165,0
+      C165,0 169,0 169,4
+      L169,28
+      C169,28 169,32 165,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#dcecf1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="145" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">大部分书不值得读完</tspan></text></g></g><rect width="173" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2123,1284.5)" style="cursor: default;"><path d="
+      M4,0
+      L213,0
+      C213,0 217,0 217,4
+      L217,28
+      C217,28 217,32 213,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#dcecf1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="193" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">允许弃书，弃书也是判断力</tspan></text></g></g><rect width="221" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1959,1333)" style="cursor: default;"><path d="
+      M6,0
+      L127,0
+      C127,0 133,0 133,6
+      L133,36
+      C133,36 133,42 127,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#e9f2f6" stroke-dasharray="none" stroke-width="1" stroke="#bfd8e3"></path><rect fill="transparent" width="20" height="43" x="134" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="101" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">笔记即收藏</tspan></text></g></g><rect width="138" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2143,1320.5)" style="cursor: default;"><path d="
+      M4,0
+      L117,0
+      C117,0 121,0 121,4
+      L121,28
+      C121,28 121,32 117,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#dcecf1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="97" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">抄书不是笔记</tspan></text></g></g><rect width="125" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2143,1356.5)" style="cursor: default;"><path d="
+      M4,0
+      L165,0
+      C165,0 169,0 169,4
+      L169,28
+      C169,28 169,32 165,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#dcecf1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="145" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">笔记要有自己的判断</tspan></text></g></g><rect width="173" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1959,1405)" style="cursor: default;"><path d="
+      M6,0
+      L107,0
+      C107,0 113,0 113,6
+      L113,36
+      C113,36 113,42 107,42
+      L6,42
+      C6,42 0,42 0,36
+      L0,6
+      C0,6 0,0 6,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="#e9f2f6" stroke-dasharray="none" stroke-width="1" stroke="#bfd8e3"></path><rect fill="transparent" width="20" height="43" x="114" y="0"></rect><g transform="matrix(1,0,0,1,16.5,9.5)"><g data-width="81" data-height="24" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="20" fill="#1F2733" xml:space="preserve"><tspan x="0.00" y="14.72" font-weight="bold">只读不练</tspan></text></g></g><rect width="118" height="47" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2123,1392.5)" style="cursor: default;"><path d="
+      M4,0
+      L181,0
+      C181,0 185,0 185,4
+      L185,28
+      C185,28 185,32 181,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#dcecf1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="161" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">读完立刻找机会用一次</tspan></text></g></g><rect width="189" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,2123,1428.5)" style="cursor: default;"><path d="
+      M4,0
+      L245,0
+      C245,0 249,0 249,4
+      L249,28
+      C249,28 249,32 245,32
+      L4,32
+      C4,32 0,32 0,28
+      L0,4
+      C0,4 0,0 4,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="#dcecf1" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><g transform="matrix(1,0,0,1,12,6)"><g data-width="225" data-height="20" data-offsetx="0"><text x="0" y="0" font-family="&quot;Microsoft YaHei&quot;, 微软雅黑, &quot;Noto Sans SC&quot;, sans-serif" font-size="16" fill="#5A6472" xml:space="preserve"><tspan x="0.00" y="12.18" font-weight="normal">用不上就说明这本书对当下无用</tspan></text></g></g><rect width="253" height="36" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g></g><g class="smm-associative-line-container"></g><g class="smm-other-container"></g></g><style>
+  /* 鼠标hover和激活时渲染的矩形 */
+  .smm-hover-node{
+    display: none;
+    opacity: 0.6;
+    stroke-width: 1;
+  }
+
+  .smm-node:not(.smm-node-dragging):hover .smm-hover-node{
+    display: block;
+  }
+
+  .smm-node.active .smm-hover-node, .smm-node-highlight .smm-hover-node{
+    display: block;
+    opacity: 1;
+    stroke-width: 2;
+  }
+
+  .smm-text-node-wrap, .smm-expand-btn-text {
+    user-select: none;
+  }
+
+      .smm-richtext-node-wrap {
+        word-break: break-all;
+        user-select: none;
+      }
+
+      .ql-editor .ql-align-left, 
+      .smm-richtext-node-wrap .ql-align-left {
+        text-align: left;
+      }
+
+      .smm-richtext-node-wrap .ql-align-right {
+        text-align: right;
+      }
+
+      .smm-richtext-node-wrap .ql-align-center {
+        text-align: center;
+      }
+      </style><g class="mmk-decor"><circle cx="518.0" cy="171.5" r="21.0" fill="#FCFCFB" stroke="#33507A" stroke-width="1.2"></circle><circle cx="518.0" cy="171.5" r="17.6" fill="#33507A"></circle><text x="518.0" y="177.6" font-family="" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">00</text><circle cx="518.0" cy="427.0" r="21.0" fill="#FCFCFB" stroke="#9E4A45" stroke-width="1.2"></circle><circle cx="518.0" cy="427.0" r="17.6" fill="#9E4A45"></circle><text x="518.0" y="433.1" font-family="" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">01</text><circle cx="518.0" cy="673.0" r="21.0" fill="#FCFCFB" stroke="#48796A" stroke-width="1.2"></circle><circle cx="518.0" cy="673.0" r="17.6" fill="#48796A"></circle><text x="518.0" y="679.1" font-family="" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">02</text><circle cx="518.0" cy="901.0" r="21.0" fill="#FCFCFB" stroke="#8A621F" stroke-width="1.2"></circle><circle cx="518.0" cy="901.0" r="17.6" fill="#8A621F"></circle><text x="518.0" y="907.1" font-family="" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">03</text><circle cx="518.0" cy="1129.0" r="21.0" fill="#FCFCFB" stroke="#35708A" stroke-width="1.2"></circle><circle cx="518.0" cy="1129.0" r="17.6" fill="#35708A"></circle><text x="518.0" y="1135.1" font-family="" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">04</text><rect x="1505.0" y="60.0" width="356.0" height="1171.0" rx="14" fill="#F4F5F4" stroke="#CBCDCF" stroke-width="1"></rect><text x="1535.0" y="120.0" font-family="" font-size="26" font-weight="bold" fill="#1F2733">分区索引</text><text x="1535.0" y="148.0" font-family="" font-size="15" letter-spacing="2.4" fill="#5A6472">SECTIONS</text><path d="M 1535.0,172 L 1831.0,172" stroke="#CBCDCF" stroke-width="1.4"></path><rect x="1531.0" y="210.0" width="30.0" height="30.0" rx="7" fill="#33507A"></rect><text x="1546.0" y="230.4" font-family="" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">00</text><text x="1573.0" y="231.0" font-family="" font-size="17" fill="#1F2733">一、读前准备</text><path d="M 1531.0,254.0 L 1835.0,254.0" stroke="#CBCDCF" stroke-width="1" stroke-opacity="0.55"></path><rect x="1531.0" y="268.0" width="30.0" height="30.0" rx="7" fill="#9E4A45"></rect><text x="1546.0" y="288.4" font-family="" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">01</text><text x="1573.0" y="289.0" font-family="" font-size="17" fill="#1F2733">二、第一遍：结构扫描</text><path d="M 1531.0,312.0 L 1835.0,312.0" stroke="#CBCDCF" stroke-width="1" stroke-opacity="0.55"></path><rect x="1531.0" y="326.0" width="30.0" height="30.0" rx="7" fill="#48796A"></rect><text x="1546.0" y="346.4" font-family="" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">02</text><text x="1573.0" y="347.0" font-family="" font-size="17" fill="#1F2733">三、第二遍：精读</text><path d="M 1531.0,370.0 L 1835.0,370.0" stroke="#CBCDCF" stroke-width="1" stroke-opacity="0.55"></path><rect x="1531.0" y="384.0" width="30.0" height="30.0" rx="7" fill="#8A621F"></rect><text x="1546.0" y="404.4" font-family="" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">03</text><text x="1573.0" y="405.0" font-family="" font-size="17" fill="#1F2733">四、第三遍：输出</text><path d="M 1531.0,428.0 L 1835.0,428.0" stroke="#CBCDCF" stroke-width="1" stroke-opacity="0.55"></path><rect x="1531.0" y="442.0" width="30.0" height="30.0" rx="7" fill="#35708A"></rect><text x="1546.0" y="462.4" font-family="" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">04</text><text x="1573.0" y="463.0" font-family="" font-size="17" fill="#1F2733">五、常见误区</text><text x="36.0" y="1377.0" font-family="" font-size="34" font-weight="bold" fill="#1F2733">demo-reading · 全章思维导图</text><text x="36.0" y="1411.0" font-family="" font-size="19" fill="#5A6472">莫兰迪学术 · 3 层结构</text><text x="36.0" y="1441.0" font-family="" font-size="15" letter-spacing="1.2" fill="#5A6472">MINDMAP-KIT / BIOCHEMISTRY SERIES</text><rect x="931.0" y="1351.0" width="210.0" height="108.0" rx="10" fill="#F5F6F5" stroke="#D0D1D3" stroke-width="1"></rect><rect x="931.0" y="1363.0" width="5" height="84.0" rx="2.5" fill="#33507A"></rect><text x="951.0" y="1407.0" font-family="" font-size="34" font-weight="bold" fill="#1F2733">46</text><text x="951.0" y="1435.0" font-family="" font-size="15" fill="#5A6472">知识节点</text><rect x="1159.0" y="1351.0" width="210.0" height="108.0" rx="10" fill="#F5F6F5" stroke="#D0D1D3" stroke-width="1"></rect><rect x="1159.0" y="1363.0" width="5" height="84.0" rx="2.5" fill="#9E4A45"></rect><text x="1179.0" y="1407.0" font-family="" font-size="34" font-weight="bold" fill="#1F2733">17</text><text x="1179.0" y="1435.0" font-family="" font-size="15" fill="#5A6472">标题层级</text><rect x="1387.0" y="1351.0" width="210.0" height="108.0" rx="10" fill="#F5F6F5" stroke="#D0D1D3" stroke-width="1"></rect><rect x="1387.0" y="1363.0" width="5" height="84.0" rx="2.5" fill="#48796A"></rect><text x="1407.0" y="1407.0" font-family="" font-size="34" font-weight="bold" fill="#1F2733">0</text><text x="1407.0" y="1435.0" font-family="" font-size="15" fill="#5A6472">结构插图</text><rect x="1615.0" y="1351.0" width="210.0" height="108.0" rx="10" fill="#F5F6F5" stroke="#D0D1D3" stroke-width="1"></rect><rect x="1615.0" y="1363.0" width="5" height="84.0" rx="2.5" fill="#8A621F"></rect><text x="1635.0" y="1407.0" font-family="" font-size="34" font-weight="bold" fill="#1F2733">2</text><text x="1635.0" y="1435.0" font-family="" font-size="15" fill="#5A6472">易错警示</text><path d="M 36.0,1471.0 L 1825.0,1471.0" stroke="#D0D1D3" stroke-width="1" stroke-opacity="0.45"></path><path d="M 47.0,1490.0 L 58.0,1509.0 L 36.0,1509.0 Z" fill="none" stroke="#D09A4A" stroke-width="1.6" stroke-linejoin="round"></path><text x="47.0" y="1506.2" font-family="" font-size="11" font-weight="bold" fill="#D09A4A" text-anchor="middle">!</text><text x="68.0" y="1503.0" font-family="" font-size="15" fill="#5A6472">易错警示 · 2 处</text><rect x="211.0" y="1491.0" width="20" height="15" rx="3" fill="none" stroke="#82878D" stroke-width="1.4"></rect><path d="M 214.0,1503.0 L 219.0,1496.0 L 224.0,1503.0" fill="#82878D" stroke="none"></path><text x="242.0" y="1503.0" font-family="" font-size="15" fill="#5A6472">结构插图锚点 · 0 处</text><path d="M 416.0,1495.0 L 435.0,1495.0" stroke="#82878D" stroke-width="1.4" stroke-opacity="1.0"></path><path d="M 416.0,1501.0 L 435.0,1501.0" stroke="#82878D" stroke-width="1.4" stroke-opacity="0.5"></path><path d="M 416.0,1507.0 L 435.0,1507.0" stroke="#82878D" stroke-width="1.4" stroke-opacity="0.5"></path><text x="446.0" y="1503.0" font-family="" font-size="15" fill="#5A6472">数据表格锚点 · 0 处</text><rect x="22.0" y="22.0" width="1817.0" height="1519.0" rx="10" fill="none" stroke="#BEC0C3" stroke-width="1.2" stroke-opacity="0.75"></rect></g></svg>
